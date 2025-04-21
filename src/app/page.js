@@ -67,6 +67,25 @@ export default function Home() {
         }}
       />
     </div>
+    <div>
+      <Wave
+        fill='#fff'
+        paused={false}
+        style={{ display: 'flex',
+          position: 'fixed',
+          bottom: 0,
+          width: '100vw',
+          zIndex: -2,
+          height: '82vh',
+         }}
+        options={{
+          height: 20,
+          amplitude: 30,
+          speed: 0.15,
+          points: 3
+        }}
+      />
+    </div>
     </>
   );
 }
