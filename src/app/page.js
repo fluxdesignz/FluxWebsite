@@ -13,7 +13,8 @@ export default function Home() {
         bottom: '50vh',
         fontSize: '3rem',
         textAlign: 'center',
-        width: '100vw'
+        width: '100vw',
+        margin: '10'
       }}
       >Flux's Site :3</p>
       <p
