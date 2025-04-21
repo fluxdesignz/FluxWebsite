@@ -1,7 +1,7 @@
 import { ViewportBoundary } from 'next/dist/server/app-render/entry-base';
 import React from 'react'
 import Wave from 'react-wavify'
-import Music from '../public/appicons/music.svg';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -107,7 +107,13 @@ export default function Home() {
       />
     </div>
 <div className="p-4 bg-neutral-700 rounded-[42px] inline-flex justify-center items-center gap-4">
-  <Music className="w-24 h-24" />
+  <Image
+    src="/appicons/music.svg"
+    alt="Music Icon"
+    width={96}
+    height={96}
+    className="w-24 h-24"
+  />
 </div>
     </>
   );
