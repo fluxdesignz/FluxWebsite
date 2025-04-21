@@ -105,6 +105,45 @@ export default function Home() {
         }}
       />
     </div>
+<div className="p-4 bg-neutral-700 rounded-[42px] inline-flex justify-center items-center gap-4">
+    <div className="w-24 h-24 bg-gradient-to-b from-neutral-400 to-neutral-600" />
+    <div className="w-20 h-20 bg-gradient-to-b from-neutral-200 to-neutral-400" />
+    <div className="w-2 h-2 bg-stone-700" />
+    <div className="w-16 h-16 bg-stone-900" />
+    <div className="w-16 h-16 bg-white/5" />
+    <div className="w-14 h-14 bg-white/5" />
+    <div className="w-12 h-12 bg-white/5" />
+    <div className="w-9 h-9 bg-white/5" />
+    <div className="w-6 h-6 bg-violet-600" />
+    <div className="w-2 h-2 bg-yellow-900" />
+    <div className="w-2 h-12 bg-stone-300" />
+    <div className="w-1.5 h-1.5 bg-[radial-gradient(ellipse_50.00%_50.00%_at_50.00%_50.00%,_#B8B8B8_0%,_#999999_100%)]" />
+    <div className="w-24 h-24 bg-white" />
+    <div className="w-16 h-6 bg-violet-700" />
+    <div className="w-16 h-12 bg-violet-700" />
+    <div className="w-16 h-11 bg-violet-600" />
+    <div className="w-24 h-24 bg-gradient-to-b from-white to-neutral-200" />
+    <div className="w-20 h-20 bg-violet-500" />
+    <div className="w-20 h-20 bg-violet-600" />
+    <div className="w-9 h-5 bg-white" />
+    <div className="w-6 h-6 bg-white" />
+    <div className="w-3.5 h-3.5 bg-white" />
+    <div className="w-6 h-3.5 bg-white" />
+    <div className="w-3.5 h-5 bg-white" />
+    <div className="w-3 h-4 origin-top-left rotate-180 bg-white" />
+    <div className="w-24 h-24 bg-gradient-to-b from-neutral-50 to-stone-300" />
+    <div className="w-20 h-20 bg-zinc-950/10" />
+    <div className="w-20 h-20 bg-gradient-to-b from-sky-400 to-sky-300" />
+    <div className="w-20 h-14 origin-top-left rotate-180 bg-white" />
+    <div className="w-10 h-10 bg-neutral-300" />
+    <div className="w-6 h-6 bg-neutral-300" />
+    <div className="w-6 h-6 bg-zinc-100" />
+    <div className="w-9 h-9 bg-blue-900/50 backdrop-blur-[2.35px]" />
+    <div className="w-10 h-10 bg-zinc-100 backdrop-blur-[2.35px]" />
+    <div className="w-24 h-24 bg-gradient-to-b from-teal-400 to-green-400" />
+    <div className="w-16 h-14 bg-neutral-200" />
+    <div className="w-16 h-14 bg-white" />
+</div>
     </>
   );
 }
