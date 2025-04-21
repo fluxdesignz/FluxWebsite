@@ -7,15 +7,15 @@ export default function Home() {
   <>
     <div>
       <p
-      style={{
-        fill:'#111111',
-        position: 'fixed',
-        bottom: '50vh',
-        fontSize: '3rem',
-        textAlign: 'center',
-        width: '100vw',
-        margin: '10'
-      }}
+  style={{
+    position: 'fixed',
+    bottom: '50vh',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    fontSize: '3rem',
+    textAlign: 'center',
+    fill: '#111111',
+  }}
       >Flux's Site :3</p>
       <p
       style={{
