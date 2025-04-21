@@ -15,7 +15,17 @@ export default function Home() {
         textAlign: 'center',
         width: '100vw'
       }}
-      >freaky ahh website</p>
+      >Flux's Site :3</p>
+      <p
+      style={{
+        fill:'#111111',
+        position: 'fixed',
+        bottom: '50vh',
+        fontSize: '1rem',
+        textAlign: 'center',
+        width: '100vw'
+      }}
+      ><a href="https://www.figma.com/@fluxdesigns">figma</a> • <a href="https://scratch.mit.edu/users/FluxDesign/">scratch</a> • <a href="https://www.youtube.com/@flux.design">youtube</a></p>
     </div>
 
     <div>
