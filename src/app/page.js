@@ -9,7 +9,7 @@ export default function Home() {
      <p
   style={{
     position: 'fixed',
-    bottom: '54vh', // higher up
+    bottom: '48vh',
     left: '50%',
     transform: 'translateX(-50%)',
     fontSize: '3rem',
