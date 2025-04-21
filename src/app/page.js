@@ -6,28 +6,38 @@ export default function Home() {
   return (
   <>
     <div>
-      <p
+     <p
   style={{
     position: 'fixed',
-    bottom: '50vh',
+    bottom: '54vh', // higher up
     left: '50%',
     transform: 'translateX(-50%)',
     fontSize: '3rem',
     textAlign: 'center',
     fill: '#111111',
+    margin: 0,
   }}
-      >Flux's Site :3</p>
-      <p
-      style={{
-        fill:'#111111',
-        position: 'fixed',
-        bottom: '50vh',
-        fontSize: '1rem',
-        textAlign: 'center',
-        width: '100vw'
-      }}
-      ><a href="https://www.figma.com/@fluxdesigns">figma</a> • <a href="https://scratch.mit.edu/users/FluxDesign/">scratch</a> • <a href="https://www.youtube.com/@flux.design">youtube</a></p>
-    </div>
+>
+  Flux&apos;s Site :3
+</p>
+
+<p
+  style={{
+    position: 'fixed',
+    bottom: '48vh',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    fontSize: '1rem',
+    textAlign: 'center',
+    fill: '#111111',
+    margin: 0,
+  }}
+>
+  <a href="https://www.figma.com/@fluxdesigns">figma</a> • 
+  <a href="https://scratch.mit.edu/users/FluxDesign/">scratch</a> • 
+  <a href="https://www.youtube.com/@flux.design">youtube</a>
+</p>
+</div>
 
     <div>
       <svg style={{ height: 0 }}>
