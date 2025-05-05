@@ -1,4 +1,4 @@
-import { ViewportBoundary } from 'next/dist/server/app-render/entry-base';
+
 import React from 'react'
 import Wave from 'react-wavify'
 import Image from 'next/image';
@@ -19,7 +19,7 @@ export default function Home() {
     margin: 0,
   }}
 >
-  Flux&apos;s Site :3
+  Flux&apos;s awesome site :3
 </p>
 
 <p
